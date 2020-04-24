@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="generator" content="Hugo 0.69.0" />
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Robot Assisted Feeding</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+<meta name="description" content="The Multi-agent System for non-Holonomic Racing (MuSHR) is an open-source robotic hardware and software platform for learning and researching AI in a the setting of autonomous vehicles and mobile robotics." />
+<meta property="og:title" content="MuSHR: The UW Open Racecar Project" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://prl-mushr.github.io" />
+<meta property="og:image" content="https://prl-mushr.github.io/imgs/single-car.jpg" />
+<meta property="og:description" content="The Multi-agent System for non-Holonomic Racing (MuSHR) is an open-source robotic hardware and software platform for learning and researching AI in a the setting of autonomous vehicles and mobile robotics." />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@MichaloveJohan" />
+<meta name="twitter:creator" content="@MichaloveJohan" />
+
+  <link rel="icon" href="https://yhrgintoki.github.io/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.7610062c98bab0e2634747161e62bdde89bf88726ce3ced9e7264513fb97fb68.css">
+  
+
+  
+
+</head>
+
+<body class='page page-home'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-publications">
+      <a href="/publications/">
+        
+        <span>Publications</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-demos and outreach">
+      <a href="/demos/">
+        
+        <span>Demos and Outreach</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-open datasets">
+      <a href="/datasets/">
+        
+        <span>Open Datasets</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-open hardware">
+      <a href="/hardware/">
+        
+        <span>Open Hardware</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-videos">
+      <a href="/videos/">
+        
+        <span>Videos</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-people">
+      <a href="https://personalrobotics.cs.washington.edu/people/">
+        
+        <span>People</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-press">
+      <a href="/press/">
+        
+        <span>Press</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="https://yhrgintoki.github.io/"><img alt="Figurit Homepage" src="https://yhrgintoki.github.io/imgs/robotic-arm.svg" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://yhrgintoki.github.io/"><img alt="Figurit Homepage" src="https://yhrgintoki.github.io/imgs/robotic-arm.svg" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    
+    <li class="menu-item-publications">
+      <a href="/publications/">
+        
+        <span>Publications</span>
+      </a>
+    </li>
+    
+    
+    
+    <li class="menu-item-demos and outreach">
+      <a href="/demos/">
+        
+        <span>Demos and Outreach</span>
+      </a>
+    </li>
+    
+    
+    
+    <li class="menu-item-open datasets">
+      <a href="/datasets/">
+        
+        <span>Open Datasets</span>
+      </a>
+    </li>
+    
+    
+    
+    <div class = "dropdown">
+    <button class="dropbtn">
+      <li class="menu-item-open hardware"></li>
+        <span>Open Hardware</span>
+      <li>
+    </button>
+    <ul class="dropdown-content">
+      
+        <li class="menu-item-tactile sensor">
+          <a href="/hardware/gelsight-mini-tactile-sensor/">Tactile Sensor</a>
+        </li>
+      
+        <li class="menu-item-wireless perception module">
+          <a href="/hardware/wireless-perception-module/">Wireless Perception Module</a>
+        </li>
+      
+    </ul>
+    </div>
+    
+    
+    
+    <li class="menu-item-videos">
+      <a href="/videos/">
+        
+        <span>Videos</span>
+      </a>
+    </li>
+    
+    
+    
+    <li class="menu-item-people">
+      <a href="https://personalrobotics.cs.washington.edu/people/">
+        
+        <span>People</span>
+      </a>
+    </li>
+    
+    
+    
+    <li class="menu-item-press">
+      <a href="/press/">
+        
+        <span>Press</span>
+      </a>
+    </li>
+    
+    
+  </ul>
+</div>
+
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" role="presentation" aria-label="mobile menu trigger">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+</div>
+</div>
+
+    
+<div class="intro">
+  <div class="container">
+     <div class="row justify-content-start">
+      <div class="col-12 col-md-12 col-lg-6 order-2 order-lg-1">
+        <h1 id="robot-assisted-feeding">Robot Assisted Feeding</h1>
+<h2 id="eating-is-an-activity-of-daily-living-adl-and-losing-the-ability-to-self-feed-can-be-devastating-robots-have-the-potential-to-assist-people-with-this-activity-and-potentially-improve-their-quality-of-life-successful-robotic-assistive-feeding-depends-on-reliable-bite-acquisition-and-easy-bite-transfer-eating-free-form-food-is-one-of-the-most-intricate-manipulation-tasks-we-perform-in-our-daily-lives-demanding-robust-non-prehensile-manipulation-of-a-deformable-hard-to-model-target-through-this-project-we-are-developing-algorithms-and-technologies-towards-a-robotic-system-that-can-autonomously-feed-people-with-upper-extremity-mobility-impairments">Eating is an activity of daily living (ADL) and losing the ability to self-feed can be devastating. Robots have the potential to assist people with this activity and potentially improve their quality of life. Successful robotic assistive feeding depends on reliable bite acquisition and easy bite transfer. Eating free-form food is one of the most intricate manipulation tasks we perform in our daily lives, demanding robust non-prehensile manipulation of a deformable hard-to-model target. Through this project, we are developing algorithms and technologies towards a robotic system that can autonomously feed people with upper-extremity mobility impairments.</h2>
+
+      
+      </div>
+      <div class="col-lg-6 order-lg-2">
+        <div style="position:relative;padding-bottom:56.25%;">
+        <iframe width="100%" height="100%" style="width:100%;height:100%;position:absolute;left:0px;top:0px;" src="https://www.youtube.com/embed/t2eO4CD-0WY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+
+  <div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          <h3 class="footer-title">Robot Assisted Feeding</h3>
+          <ul>
+            
+            
+            <li class="menu-item-home">
+              <a href="/">
+                Home
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+          <ul>
+            <li><strong>Email: </strong><a href="mailto:siddh@cs.washington.edu">
+                siddh@cs.washington.edu</a></li>
+          </ul>
+          <ul>
+            <li class="prl"><a href="https://personalrobotics.cs.washington.edu/">Made with <font color="#FF1690">♥</font> at the Personal Robotics Lab</a></li>
+          </ul>
+          <ul>
+            <li class="prl">Website by <font color="#36CDC4">Haoran</font></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/scripts.min.bf1e1f7ae8e03db5f012356e825843facdff51c0a559cb0d27fe2bbe1db405c2.js"></script>
+  
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146151202-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+  gtag('config', 'UA-146151202-1');
+</script>
+
+
+
+
+</body>
+
+</html>

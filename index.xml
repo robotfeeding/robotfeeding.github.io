@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robot-assited Feeding on Robot Assisted Feeding</title>
+    <link>https://yhrgintoki.github.io/</link>
+    <description>Recent content in Robot-assited Feeding on Robot Assisted Feeding</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Nov 2019 16:59:00 +0700</lastBuildDate>
+    
+	<atom:link href="https://yhrgintoki.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gelsight-Mini Tactile Sensor</title>
+      <link>https://yhrgintoki.github.io/hardware/gelsight-mini-tactile-sensor/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:54 +1000</pubDate>
+      
+      <guid>https://yhrgintoki.github.io/hardware/gelsight-mini-tactile-sensor/</guid>
+      <description>Vision-based tactile sensors</description>
+    </item>
+    
+    <item>
+      <title>Wireless Perception Module</title>
+      <link>https://yhrgintoki.github.io/hardware/wireless-perception-module/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:54 +1000</pubDate>
+      
+      <guid>https://yhrgintoki.github.io/hardware/wireless-perception-module/</guid>
+      <description>A module which interfaces sensors and wirelessly transmits high-bandwidth data over WiFi</description>
+    </item>
+    
+    <item>
+      <title>Demos</title>
+      <link>https://yhrgintoki.github.io/demos/</link>
+      <pubDate>Sun, 03 Nov 2019 16:59:00 +0700</pubDate>
+      
+      <guid>https://yhrgintoki.github.io/demos/</guid>
+      <description>Autonomous robot feeding for upper-extremity mobility impaired people: Integrating sensing, perception, learning, motion planning, and robot control.
+T. Bhattacharjee, D. Gallenberger, D. Dubois, L. L&#39;Écuyer-Lapiere, Y. Kim, A. Mandalika, R. Scalise, R. Qu, H. Song, E. Gordon, and S.S. Srinivasa.
+Conference on Neural Information Processing Systems, 2018
+Best Demo Award Winner
+   Outreach  TTI/Vanguard Visit and Demo  March 2, 2020 UW: Robotics Lab    American Association for the Advancement of Science (AAAS) Demo  February 14-15, 2020 Washington Convention Center    Computing Open House 2019  December 7, 2019 UW: Gates Center    Clive Thompson Video Shoot  October 23, 2019 UW: Robotics Lab Photography by Ariana McLaughlin    Toyota Research Institute Demo  October 2, 2019 UW: Robotics Lab    US Patent Office Demo  July 16, 2019 UW: Wallace Hall, AMP Lab    Engineering Discover Days 2019  April 26, 2019 UW: Robotics Lab    Puget Sound Business Journal Demo  April 25, 2019; Published May 3, 2019 UW: Robotics Lab    NeurIPS 2018 Demonstration  December 5, 2018    Computing Open House 2018  December 2, 2018 UW: Allen Center    CSE Woman’s Day Demo  April 6, 2018 UW: Robotics Lab            </description>
+    </item>
+    
+    <item>
+      <title>Open Datasets</title>
+      <link>https://yhrgintoki.github.io/datasets/</link>
+      <pubDate>Sun, 03 Nov 2019 16:59:00 +0700</pubDate>
+      
+      <guid>https://yhrgintoki.github.io/datasets/</guid>
+      <description>A Dataset of Food Manipulation Strategies.
+A dataset of multimodal sensing modalities (forces, torques, poses, RGBD images) for feeding task.
+A Dataset of Food Items with Skewering Location and Rotation Masks.
+A dataset of annotations of skewerable food items for image-based bite acquisition and bite transfer task.
+A Dataset of Robot Bite Acquisition Trials on Solid Food Using Different Manipulation Strategies.
+A dataset of attempts by the Autonomous Dextrous Arm (ADA), a JACO 2 arm equipped with an eye-in-hand camera and a force-torque sensor, to skewer one of 16-types of food given one of 6 manipulation strategies (3 pitch angles X 2 roll angles).</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://yhrgintoki.github.io/publications/</link>
+      <pubDate>Sun, 03 Nov 2019 16:59:00 +0700</pubDate>
+      
+      <guid>https://yhrgintoki.github.io/publications/</guid>
+      <description>Is More Autonomy Always Better? Exploring Preferences of Users with Mobility Impairments in Robot-assisted Feeding.
+T. Bhattacharjee, E.K. Gordon, R. Scalise, M.E. Cabrera, A. Caspi, M. Cakmak, and S.S. Srinivasa.
+In ACM/IEEE International Conference on Human-Robot Interaction, 2020.
+Adaptive Robot-Assisted Feeding: An Online Learning Framework for Acquiring Previously-Unseen Food Items.
+E.K. Gordon, X. Meng, T. Bhattacharjee, M. Barnes, and S. S. Srinivasa.
+Under Review, 2020.
+Towards Robotic Feeding: Role of Haptics in Fork-based Food Manipulation.</description>
+    </item>
+    
+    <item>
+      <title>Videos</title>
+      <link>https://yhrgintoki.github.io/videos/</link>
+      <pubDate>Sun, 03 Nov 2019 16:59:00 +0700</pubDate>
+      
+      <guid>https://yhrgintoki.github.io/videos/</guid>
+      <description>Evaluating an Assistive-Feeding Robot with Users with Mobility Limitations In this work, we explore user preferences for different modes of autonomy for robot-assisted feeding given perceived error risks and also analyze the effect of input modalities on technology acceptance.
+Specifically, we tested: Speed(Fast vs. Slow), Interface (Web-based vs. Voice-based), Environment (Social vs. Individual), Level of Autonomy: (Full vs. Partial vs. Low)
+  
+Online Learning for Food Manipulation This video shows how a robot can learn to skewer previously-unseen food items with different action distributions using online learning with a contextual bandit formulation.</description>
+    </item>
+    
+    <item>
+      <title>Press</title>
+      <link>https://yhrgintoki.github.io/press/</link>
+      <pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate>
+      
+      <guid>https://yhrgintoki.github.io/press/</guid>
+      <description>This is press.</description>
+    </item>
+    
+    <item>
+      <title>Robot-assited Feeding</title>
+      <link>https://yhrgintoki.github.io/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yhrgintoki.github.io/overview/</guid>
+      <description>By Tapomayukh Bhattacharjee
+ Eating free-form food is one of the most intricate manipulation tasks we perform in our daily lives, demanding robust nonprehensile manipulation of a deformable hard-to-model target. Automating food manipulation is daunting as the universe of foods, cutlery, and human strategies is massive. To understand how humans manipulate food items during feeding and to explore ways to adapt their strategies to robots, we collected human trajectories by asking them to pick up food and feed it to a mannequin.</description>
+    </item>
+    
+  </channel>
+</rss>
